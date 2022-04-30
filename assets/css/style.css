@@ -38,6 +38,7 @@ header h1 {
     font-weight: bold;
     margin: 0;
     font-size: 38;
+    border-radius: 15px;
 }
 
 header a {
@@ -63,12 +64,12 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    color: aqua;
+    color: rgb(92, 212, 212);
 }
 
 header nav ul li a:hover {
     background: rgb(104, 153, 181);
-    color: rgb(58, 148, 186);
+    color: rgb(117, 117, 117);
     border-radius: 15px;
     text-shadow: none;
 }
@@ -79,9 +80,10 @@ footer {
     background: rgb(117, 117, 117);
     padding: 40px 35px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     width: 100%;
+
 }
 
 footer h2{
@@ -102,7 +104,7 @@ section {
 
 /* Port styles start */
 .port {
-    background-image: url(/assets/images/background.jpg);
+    background-image: url('../images/background.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -112,3 +114,305 @@ section {
     background-attachment: fixed;
     background-position: 80%;
 }
+
+.port-cool {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.port-cool h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: rgb(117, 117, 117);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Port Styles End */
+
+/* Section Title Styles Start */
+.section-title {
+    font-size: 48px;
+    padding-left: 60px;
+    text-align: left;   
+    margin: 0 auto 35px auto;
+    width: 100%;
+    /*border-right: 10px solid;
+    border-top-right-radius: 50px;
+    border-right-width: 50px;*/
+    border-left: 10px solid;
+    
+
+}
+
+.first-border {
+    color: aqua;
+    
+}
+
+.second-border {
+    color: aqua;
+}
+
+/* Section Title Styles End */
+
+/* About Me Styles */
+/*
+.intro p{
+    line-height: 1.7;
+    color: blue;
+    width: 50%;
+    margin: -70px 380px auto;
+    font-size: 20px;
+    text-align: justify;
+} */  
+    
+
+
+
+.intro-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+/*
+.intro-cta-1 {
+    width: 35%;
+    text-align: right;
+    content-visibility: right;
+}
+*/
+.intro-cta, .intro-cta-1 {
+    width: 100%;
+}
+/* About me End */
+
+/* Work Start */
+.show-work {
+    background: rgb(117, 117, 117);
+}
+
+.jobs {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+.job {
+    margin: 20px;
+    flex: 1;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    }
+
+.job image {
+    width: 100%;
+}
+
+.descrip {
+    padding: 25px;
+    line-height: 1.3;
+}
+
+/*
+.descrip {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+*/
+
+.job h3 {
+    font-size: 46px;
+}
+
+.job h4 {
+    font-weight: lighter;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+/* Work End */
+
+/* Contact Styles Start */
+
+.contact {
+    background-color: aliceblue;
+}
+
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
+
+.contact h2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info div {
+    color: white;
+}
+
+.contact-info h3 {
+    color: rgb(117, 117, 117);
+    font-size: 32px;
+}
+
+.contact-info p {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.contact-links nav ul li a {
+    color: rgb(117, 117, 117);
+}
+/* Contact Styles End */
+
+.flex-row {
+    display: flex;
+}
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+  
+    /*
+    header nav ul li a:hover {
+      background:var(--primary-color);
+      color: var(--secondary-color);
+      border-radius: 15px;
+      text-shadow: none;
+    }*/
+  
+    footer h2, footer div {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .hero-cta, .hero-form {
+      width: 100%;
+    }
+    
+    .hero-cta {
+      text-align: center;
+    }
+  
+    .section-title {
+      width: 80%;
+    }
+    
+    .trainer {
+      flex: 0 70%;
+    }
+    
+    .contact-info iframe{
+      flex: 1 100%;
+    }
+  }
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
+  
+    .step h3 {
+      flex: 1 100%;
+      text-align: center;
+    }
+  
+    .step-info {
+      flex: 2 100%;
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .step-img {
+      flex: 0 32%;
+      margin-right: 0;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  
+    .step-text {
+      flex: 100%;  
+    }
+  
+    .trainer-bio h3, .trainer-bio h4 {
+      display: block;
+    }
+  
+  
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    .hero-form button {
+      width: 100%;
+    }
+    
+    .port-cool {
+        width: 100%;
+    }
+
+    header h1 {
+        justify-content: center;
+    }
+
+    .section-title {
+      width: 95%;
+    }
+  
+    .intro p {
+      width: 100%;
+    }
+  
+    .trainer {
+      flex: 0 100%;
+    }
+  
+    .contact-info {
+      text-align: center;
+    }
+  
+    .contact-info > * {
+      flex: 0 100%;
+    }
+    
+    .contact-form {
+      order: 3;
+    }
+  }
