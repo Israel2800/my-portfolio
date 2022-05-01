@@ -715,6 +715,17 @@ section {
         padding: 30px 15px;
     }
 
+    .port {
+        background-image: url(../images/background.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        background-attachment: fixed;
+        background-position: 70%;
+    }
     .port-cool {
         width: 100%;
     }
@@ -764,4 +775,5 @@ section {
         margin-left: 20px;
 
     }
+
 }  
