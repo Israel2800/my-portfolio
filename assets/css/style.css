@@ -702,6 +702,15 @@ section {
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
+    header {
+        background-color: rgb(117, 117, 117);
+        top: 0;
+        background-image: url(../images/background.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 80%;
+    }
+    
     section {
         padding: 30px 15px;
     }
