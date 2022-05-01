@@ -43,7 +43,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: rgb(117, 117, 117);
+    color: rgb(255, 255, 255);
     justify-content: flex-end;    
 }
 
@@ -88,13 +88,8 @@ footer {
 
 footer h2{
     color: white;
-    font-size: 30;
+    font-size: 18px;
     margin: 0;
-}
-
-footer div {
-    line-height: 1.5;
-    text-align: right;
 }
 
 /* Style all the section */
@@ -328,13 +323,91 @@ section {
 /* Contact Styles Start */
 
 .contact {
+    background: rgb(117, 117, 117);
     background-color: aliceblue;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-.contact-info > * {
-    flex: 1;
-    margin: 15px;
+.cont-act {
+    margin: -40% 54%;
+
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
 }
+
+.contact-info {
+    /*
+    flex: 1 69%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: justify;
+    border-left: 4px solid;*/
+
+    width: 100%;
+    margin: -10% 22%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-left: 4px solid;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 200px;
+    text-align: center;
+
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    justify-content: space-between;
+    margin: auto;
+        
+}
+
+.contact-info nav {
+    margin: 12px 0;
+}
+
+.contact-info nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.contact-info nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.0vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: rgb(92, 212, 212);
+}
+
+.contact-info nav ul li a:hover {
+    background: rgb(104, 153, 181);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+/*
+.contact-info > * {
+    flex: 1 60%;
+    margin: 15px;
+}*/
 
 .contact h2 {
     display: flex;
@@ -343,23 +416,17 @@ section {
 }
 
 .contact-info div {
-    color: white;
+    color: blue;
 }
 
 .contact-info h3 {
     color: rgb(117, 117, 117);
-    font-size: 32px;
-}
-
-.contact-info p {
-    margin: 20px 0;
-    line-height: 1.5;
-    font-size: 16px;
-    font-style: normal;
+    font-size: 30px;
 }
 
 .contact-links nav ul li a {
     color: rgb(117, 117, 117);
+    font-size: 20px;
 }
 /* Contact Styles End */
 
@@ -377,9 +444,10 @@ section {
     }
   
     header h1 {
-      width: 70%;
+      width: 60%;
       text-align: center;
       justify-content: center;
+      border-radius: 15px;
     }
   
     header nav ul {
@@ -392,38 +460,81 @@ section {
       font-size: 20px;
     }
   
-    /*
-    header nav ul li a:hover {
-      background:var(--primary-color);
-      color: var(--secondary-color);
-      border-radius: 15px;
-      text-shadow: none;
-    }*/
-  
-    footer h2, footer div {
+    footer h2 {
       text-align: center;
       width: 100%;
-    }
-  
-    .hero-cta, .hero-form {
-      width: 100%;
-    }
-    
-    .hero-cta {
-      text-align: center;
     }
   
     .section-title {
-      width: 80%;
+      width: 50%;
+      margin-top: 20%;
+      border-left: none;
+    }
+
+    .ab-text p {
+        margin-left: 0;
+    }
+
+    .sh-ow h2 {
+        margin-left: 70px;
     }
     
-    .trainer {
-      flex: 0 70%;
+    .jobs {
+        margin: 0%;
+        justify-content: center;
+    }
+
+    .job img {
+        width: 280px;
+        height: 200px;
+        justify-content: space-between;
+        display: block;
+        margin-left: 0px;
+        margin-top: 10px;
+
     }
     
-    .contact-info iframe{
-      flex: 1 100%;
+    .sh-ow h2 {
+        margin-left: 10px;
     }
+
+    .contact {
+      justify-content: center;
+      position: relative;
+      width: 100%;
+    }
+
+    .contact-info{
+  
+        justify-content: space-between;
+        border-left: 4px solid;
+        padding-left: 200px;
+        margin: 0;
+    }
+ 
+    .cont-act h2 {
+        text-align: left;
+        margin-left: -80%;
+        font-size: 46px;
+        padding-top: -20px;
+    }
+
+    .my-name h3{
+        margin-left: 0%;
+        padding-left: 50px;
+        padding-top: 8%;
+        font-size: 30px;
+    }
+
+    .contact-links {
+        margin-left: -30%;
+        padding-top: 8%;
+    }
+
+    .jobs {
+        margin: 0%;
+    }
+
   }
   
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -463,9 +574,116 @@ section {
     .trainer-bio h3, .trainer-bio h4 {
       display: block;
     }
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+      }
+    
+      header h1 {
+        width: 60%;
+        text-align: center;
+        justify-content: center;
+        border-radius: 15px;
+      }
+    
+      header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+      }
+    
+      header nav ul li a {
+        font-size: 20px;
+      }
+    
+      footer h2 {
+        text-align: center;
+        width: 100%;
+      }
+    
+      .section-title {
+        width: 50%;
+        margin-top: 20%;
+      }
   
+      .ab-text p {
+          margin-left: 0;
+      }
   
-  }
+      .sh-ow h2 {
+          margin-left: 10px;
+      }
+      
+      .jobs {
+          margin: 10%;
+          justify-content: center;
+      }
+  
+      .job img {
+          width: 280px;
+          height: 200px;
+          justify-content: space-between;
+          display: block;
+          margin-left: 0%;
+          margin-top: 10px;
+  
+      }
+      
+      .sh-ow h2 {
+          margin-left: 10px;
+      }
+  
+      .contact {
+        justify-content: center;
+        position: relative;
+        width: 100%;
+      }
+  
+      .contact-info{
+    
+          justify-content: space-between;
+          border-left: 4px solid;
+          padding-left: 200px;
+          margin: 0;
+      }
+   
+      .cont-act h2 {
+          text-align: left;
+          margin-left: -80%;
+          font-size: 46px;
+          padding-top: -20px;
+      }
+  
+      .my-name h3{
+          margin-left: -170%;
+          padding-left: 50px;
+          padding-top: 14%;
+          font-size: 30px;
+      }
+  
+      .contact-links {
+          margin-left: -108%;
+          padding-top: 8%;
+          align-items: center;
+          text-align: center;
+      }
+  
+      .job {
+        margin: 20px;
+        flex: 1;
+        background: transparent;
+        color: white;
+        position: relative;
+        text-align: left;
+      }
+
+      .descrip {
+        /* padding: 0px; */
+        bottom: 12px;
+        left: 20px;
+      }
+    }
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
@@ -495,10 +713,6 @@ section {
       width: 100%;
     }
   
-    .trainer {
-      flex: 0 100%;
-    }
-  
     .contact-info {
       text-align: center;
     }
@@ -507,7 +721,22 @@ section {
       flex: 0 100%;
     }
     
-    .contact-form {
-      order: 3;
+    
+    .sh-ow h2 {
+        margin-left: 10px;
     }
-  }
+    
+    .jobs {
+        margin: 0%;
+        justify-content: center;
+    }
+
+    .job img {
+        width: 250px;
+        height: 180px;
+        justify-content: space-between;
+        display: block;
+        margin-left: 20px;
+
+    }
+}  
