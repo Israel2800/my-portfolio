@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    padding: 20px 20px;
+    padding: 20px 0;
     background-color: rgb(117, 117, 117);
     display: flex;
     justify-content: space-between;
@@ -38,7 +38,7 @@ header h1 {
     font-weight: bold;
     margin: 0;
     font-size: 38;
-    border-radius: 15px;
+    /*border-radius: 15px;*/
 }
 
 header a {
@@ -141,10 +141,11 @@ section {
     padding-bottom: 13%;
     width: 80%;
     text-align: center;
-    color: brown;
+    color: rgba(29, 41, 104, 0.566);
     font-size: 36px;
     flex: 1 10%;
 }
+
 
 /* Section Title Styles End */
 
@@ -169,12 +170,32 @@ section {
     justify-content: flex-start;
     }
 
+.sh-ow {
+    
+    /*margin: 10px 50px;*/
+    margin: -50px 12%;
+
+    width: 10%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sh-ow h2 {
+    color: rgb(104, 153, 181);
+}
+
+ 
 .show-work {
+    background: rgb(117, 117, 117);
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
+   
 }
 
 
@@ -186,7 +207,7 @@ section {
 }*/
 
 .ab-text {
-    flex: 1 65%;
+    flex: 1 69%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -196,9 +217,9 @@ section {
 .ab-text p {
     width: 100%;
     line-height: 1.5;
-    border-left: 3px solid;
+    border-left: 4px solid;
     font-size: 18px;
-    color: brown;
+    color: rgba(29, 41, 104, 0.566);
     padding-top: 0px;
     padding-right: 20px;
     padding-bottom: 20px;
@@ -217,18 +238,27 @@ section {
 /* About me End */
 
 /* Work Start */
-.show-work {
-    background: rgb(117, 117, 117);
-}
+
 
 .jobs {
-    
+    /*
     width: 100%;
     margin: 0 24%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around; 
-    border-left: 3px solid;
+    border-left: 3px solid; */
+
+    width: 100%;
+    margin: -50px 22%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-left: 4px solid;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
 /*
     width: 100%;
     line-height: 1.5;
