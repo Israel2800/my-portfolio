@@ -297,7 +297,7 @@ section {
 
 .job-name {
     color: black;
-    font-size: 22px;
+    font-size: 18px;
     justify-content: left;
 }
 
@@ -305,7 +305,7 @@ section {
     color: black;
     justify-content: left;
     font-weight: lighter;
-    font-size: 15px;
+    font-size: 13px;
     margin-bottom: 15px;
 }
 
@@ -748,7 +748,7 @@ section {
     }
 
     .job img {
-        width: 250px;
+        width: 270px;
         height: 180px;
         justify-content: space-between;
         display: block;
