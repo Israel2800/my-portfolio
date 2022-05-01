@@ -18,7 +18,7 @@ header {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background-image: url(/assets/images/background.jpg);
+    background-image: url('../images/background.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -136,27 +136,11 @@ section {
 /* Port Styles End */
 
 /* Section Title Styles Start */
+
 .section-title {
-    font-size: 48px;
-    padding-left: 60px;
-    text-align: left;   
-    margin: 0 auto 35px auto;
-    width: 100%;
-    /*border-right: 10px solid;
-    border-top-right-radius: 50px;
-    border-right-width: 50px;*/
-    border-left: 10px solid;
-    
-
-}
-
-.first-border {
-    color: aqua;
-    
-}
-
-.second-border {
-    color: aqua;
+    padding-bottom: 13%;
+    width: 80%;
+    text-align: center;
 }
 
 /* Section Title Styles End */
@@ -176,22 +160,19 @@ section {
     margin: 10px 30px;
     padding-bottom: 10px;
     width: 100%;
-    /*border-bottom: 1px solid #39a6b2;*/
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
     }
-
 .ab-me h2 {
     color: brown;
-    font-size: 40px;
-    
-    flex: 1 30%;
+    font-size: 36px;
+    flex: 1 10%;
 }
 
 .ab-text {
-    flex: 2 65%;
+    flex: 1 65%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -199,10 +180,15 @@ section {
 }
 
 .ab-text p {
-    color: brown;
-    font-size: 18px;
     width: 100%;
     line-height: 1.5;
+    border-left: 3px solid;
+    font-size: 18px;
+    color: brown;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
 }
 
 
@@ -213,9 +199,7 @@ section {
     content-visibility: right;
 }
 */
-.intro-cta, .intro-cta-1 {
-    width: 100%;
-}
+
 /* About me End */
 
 /* Work Start */
