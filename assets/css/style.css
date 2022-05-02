@@ -710,8 +710,8 @@ section {
         background-size: cover;
         background-attachment: fixed;
         background-position: 80%;
-    }
-    */
+    }*/
+    
     section {
         padding: 30px 15px;
     }
@@ -767,7 +767,7 @@ section {
         margin: 0%;
         justify-content: center;
     }
-/*
+
     .job img {
         width: 270px;
         height: 180px;
@@ -775,6 +775,6 @@ section {
         display: block;
         margin-left: 20px;
 
-    }*/
+    }
 
 }  
