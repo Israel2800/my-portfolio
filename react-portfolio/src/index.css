@@ -1,0 +1,46 @@
+html, body {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* *, ::after, ::before {
+    box-sizing: border-box;
+    background-color: gray;
+} */
+
+.nav-tabs {
+    display: flex;
+    justify-content: right;
+}
+
+.nav-item {
+    width: 150px;
+}
+
+.homePage {
+    /* width: 100%;
+    height: 100%; */
+    background-color: gray;
+    padding: 20px;
+
+} 
+
+
+.photo {
+    text-align: center;
+    width: 20%;
+    margin: auto;
+    padding: 20px;
+    border-style: solid;
+    border-color: #B6C7D6;
+    border-radius: 20px;
+    background-color: #EAF0F6;
+
+}
+
+/* .this {
+    text-align: center;
+} */
