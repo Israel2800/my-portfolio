@@ -20,8 +20,5 @@ export default function Home() {
       <p className='this'>This is me!</p>
       </div>
     </div>
-
-    
-
   );
 }
