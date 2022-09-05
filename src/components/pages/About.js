@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section className="who-am-i">
       <h1 id="about">Who am I?</h1>
-      <img src={profilePhoto} className="profilePhoto" style={{ width:"250px", height:"300px" }} alt="cover" />
+        <img src={profilePhoto} className="profilePhoto" style={{ width:"250px", height:"300px" }} alt="cover" />
       <div className='name'>
         This is me!, ISRAEL AGUILAR
       </div>

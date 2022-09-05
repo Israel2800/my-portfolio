@@ -9,9 +9,9 @@ import project4 from '../../assets/projects/note-taker.png';
 
 export default function Projects() {
   return (
-    <div>
+    <section className="who-am-i">
       <h1 className='projectsSection'>Projects</h1>
-      <div className='container'>
+      <div className='containerImg'>
         <div className='projectImg0 hover'>
         <a href="https://israel2800.github.io/Team-Project-1/">
           <img src={project0} className="profilePhoto0" style={{ width:"350px", height:"200px" }} alt="project-1" />
@@ -21,7 +21,7 @@ export default function Projects() {
           </div>
         </a>  
         </div>
-        <div className='projectImg1 hover'>
+        <div className='projectImg0 hover'>
         <a href="https://gentle-stream-19606.herokuapp.com/">  
           <img src={project1} className="profilePhoto0" style={{ width:"350px", height:"200px" }} alt="project-2"/>
           <div className='description'>
@@ -30,7 +30,7 @@ export default function Projects() {
           </div>
         </a>
         </div>
-        <div className='projectImg2 hover'>
+        <div className='projectImg0 hover'>
         <a href="https://israel2800.github.io/weather-dashboard-challenge/">
           <img src={project2} className="profilePhoto0" style={{ width:"350px", height:"200px" }} alt="project-3" />
           <div className='description'>
@@ -39,7 +39,7 @@ export default function Projects() {
           </div>
         </a>  
         </div>
-        <div className='projectImg3 hover'>
+        <div className='projectImg0 hover'>
         <a href="https://budget-tracker-pwa-12.herokuapp.com/">  
           <img src={project3} className="profilePhoto0" style={{ width:"350px", height:"200px" }} alt="project-4" />
           <div className='description'>
@@ -48,7 +48,7 @@ export default function Projects() {
           </div>
         </a>
         </div>  
-        <div className='projectImg4 hover'>
+        <div className='projectImg0 hover'>
         <a href="https://note-taker-task.herokuapp.com/">
           <img src={project4} className="profilePhoto0" style={{ width:"350px", height:"200px" }} alt="project-5" />
           <div className='description'>
@@ -58,6 +58,6 @@ export default function Projects() {
         </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
