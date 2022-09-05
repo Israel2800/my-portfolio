@@ -4,6 +4,9 @@ import Resume from './pages/Resume';
 import About from './pages/About';
 import Blog from './pages/Projects';
 import Contact from './pages/Contact';
+import Footer from './pages/Footer';
+import { BrowserRouter as Router} from 'react-router-dom';
+
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -25,11 +28,16 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
-      {/* We are passing the currentPage from state and the function to update it */}
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* Here we are calling the renderPage method which will return a component  */}
-      {renderPage()}
-    </div>
+    <Router>
+      <div>
+        {/* We are passing the currentPage from state and the function to update it */}
+        <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+        {/* Here we are calling the renderPage method which will return a component  */}
+        {renderPage()}
+        
+          <Footer />
+      </div>
+    </Router>
+
   );
 }
