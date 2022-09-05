@@ -12,7 +12,7 @@ export default function About() {
       <div className="my-2">
         <p className='intro'>
         Adaptable Computer Science student, currently attending College of Accounting and Administration - UNAM, 
-        with 1+ years of work experience. Aiming to leverage a proven knowledge of web design, programming, and 
+        with 1 year of work experience. Aiming to leverage a proven knowledge of web design, programming, and 
         web platform development skills to successfully fill the Web Developer role. I am currently studing 
         a Coding BootCamp, learning and adopting some computer skills just like JavaScript, CSS and HTML, etc.
         </p>
