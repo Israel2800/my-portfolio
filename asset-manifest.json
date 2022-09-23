@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-challenge/static/css/main.a89034c9.chunk.css",
-    "main.js": "/portfolio-challenge/static/js/main.640d5ef9.chunk.js",
-    "main.js.map": "/portfolio-challenge/static/js/main.640d5ef9.chunk.js.map",
+    "main.js": "/portfolio-challenge/static/js/main.c364d6d5.chunk.js",
+    "main.js.map": "/portfolio-challenge/static/js/main.c364d6d5.chunk.js.map",
     "runtime-main.js": "/portfolio-challenge/static/js/runtime-main.17d6a8f0.js",
     "runtime-main.js.map": "/portfolio-challenge/static/js/runtime-main.17d6a8f0.js.map",
     "static/css/2.984f751f.chunk.css": "/portfolio-challenge/static/css/2.984f751f.chunk.css",
@@ -14,6 +14,7 @@
     "static/css/2.984f751f.chunk.css.map": "/portfolio-challenge/static/css/2.984f751f.chunk.css.map",
     "static/css/main.a89034c9.chunk.css.map": "/portfolio-challenge/static/css/main.a89034c9.chunk.css.map",
     "static/js/2.4853a6d0.chunk.js.LICENSE.txt": "/portfolio-challenge/static/js/2.4853a6d0.chunk.js.LICENSE.txt",
+    "static/media/TapCard.e732bc5d.png": "/portfolio-challenge/static/media/TapCard.e732bc5d.png",
     "static/media/movie-moods.0e36b240.png": "/portfolio-challenge/static/media/movie-moods.0e36b240.png",
     "static/media/note-taker.840667d4.png": "/portfolio-challenge/static/media/note-taker.840667d4.png",
     "static/media/profile.bcc03fc6.jpeg": "/portfolio-challenge/static/media/profile.bcc03fc6.jpeg",
@@ -26,6 +27,6 @@
     "static/css/2.984f751f.chunk.css",
     "static/js/2.4853a6d0.chunk.js",
     "static/css/main.a89034c9.chunk.css",
-    "static/js/main.640d5ef9.chunk.js"
+    "static/js/main.c364d6d5.chunk.js"
   ]
 }
