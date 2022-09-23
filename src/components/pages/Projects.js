@@ -4,7 +4,7 @@ import project1 from '../../assets/projects/record-swap.png';
 import project2 from '../../assets/projects/weather-dash.png';
 import project3 from '../../assets/projects/pwa.png';
 import project4 from '../../assets/projects/note-taker.png';
-import project5 from '../../assets/projects/TapCard'
+import project5 from '../../assets/projects/TapCard.png'
 
 
 export default function Projects() {
