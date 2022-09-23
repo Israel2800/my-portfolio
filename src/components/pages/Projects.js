@@ -4,7 +4,7 @@ import project1 from '../../assets/projects/record-swap.png';
 import project2 from '../../assets/projects/weather-dash.png';
 import project3 from '../../assets/projects/pwa.png';
 import project4 from '../../assets/projects/note-taker.png';
-
+import project5 from '../../assets/projects/TapCard'
 
 
 export default function Projects() {
@@ -54,6 +54,15 @@ export default function Projects() {
           <div className='description'>
             <h3 className='job-name'>Note Taker App</h3>
             <h4 className='skills'>Express.js, Node.js, JavaScript, HTML and CSS!</h4>
+          </div>
+        </a>
+        </div>
+        <div className='projectImg0 hover'>
+        <a href="https://tap-card-everyone.herokuapp.com/">
+          <img src={project5} className="profilePhoto0" style={{ width:"350px", height:"200px" }} alt="project-6" />
+          <div className='description'>
+            <h3 className='job-name'>TapCard</h3>
+            <h4 className='skills'>MERN Website!</h4>
           </div>
         </a>
         </div>
