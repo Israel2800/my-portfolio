@@ -20,10 +20,10 @@
 
 ## Project Links
 ## Website
-https://israel2800.github.io/portfolio-challenge/
+https://israel2800.github.io/my-portfolio/
 
 ## GitHub Repository
-https://github.com/Israel2800/portfolio-challenge
+https://github.com/Israel2800/my-portfolio
 
 ## Project Objective
 A website that provides all the projects that the employee has carried out in his professional career.
