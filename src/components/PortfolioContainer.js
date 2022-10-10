@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
-import Resume from './pages/Resume';
 import About from './pages/About';
+import Navbar from './pages/Navbar';
+// simport About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Footer from './pages/Footer';
 import { BrowserRouter as Router} from 'react-router-dom';
+import Skills from './pages/Skills';
 
 
 export default function PortfolioContainer() {
@@ -22,23 +23,25 @@ export default function PortfolioContainer() {
     if (currentPage ==='Contact') {
       return <Contact />;
     }
-      return <Resume />;
+      return <Skills />;
   
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    
-    <Router>
-      <div>
-        {/* We are passing the currentPage from state and the function to update it */}
-        <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-        {/* Here we are calling the renderPage method which will return a component  */}
-        {renderPage()}
-        
-          <Footer />
-      </div>
-    </Router>
+    <main className="text-indigo-100 bg-gradient-to-r from-blue-700 to-cyan-500 body-font">
+      <Router>
+          <div>
+            {/* We are passing the currentPage from state and the function to update it */}
+            <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+            {/* Here we are calling the renderPage method which will return a component  */}
+            {renderPage()}
+            
+              <Footer />
+          </div>
+      </Router>
+    </main>
+
   );
 }
