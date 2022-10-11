@@ -12,7 +12,7 @@ import { SiBootstrap } from "@react-icons/all-files/si/SiBootstrap"
 import { SiTailwindcss } from "@react-icons/all-files/si/SiTailwindcss"
 import { SiJava } from "@react-icons/all-files/si/SiJava"
 import { GrMysql } from "@react-icons/all-files/gr/GrMysql"
-
+// import img from "./assets/projects/pwa.png"
 
 export const projects = [
     {
@@ -20,7 +20,7 @@ export const projects = [
       subtitle: "MERN Stack",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
+      image: "./assets/projects/pwa.png",
       link: "https://reactbootcamp.com",
     },
     {
