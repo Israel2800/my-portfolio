@@ -13,14 +13,15 @@ import { SiTailwindcss } from "@react-icons/all-files/si/SiTailwindcss"
 import { SiJava } from "@react-icons/all-files/si/SiJava"
 import { GrMysql } from "@react-icons/all-files/gr/GrMysql"
 // import img from "./assets/projects/pwa.png"
+// import noteTaker from "../public/note-taker.png"
 
 export const projects = [
     {
-      title: "React Reserve",
+      title: "React Reserve!",
       subtitle: "MERN Stack",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./assets/projects/pwa.png",
+      image: "./pwa.png",
       link: "https://reactbootcamp.com",
     },
     {
@@ -28,7 +29,7 @@ export const projects = [
       subtitle: "React and Python",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-2.gif",
+      image: "./note-taker.png",
       link: "https://reactbootcamp.com",
     },
     {

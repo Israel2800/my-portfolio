@@ -1,8 +1,8 @@
 import { DesktopComputerIcon } from "@heroicons/react/solid";
 import React from "react";
-import { projects } from "../../data";
-import { FaLaptopCode } from "@react-icons/all-files/fa/FaLaptopCode"
-
+import { projects } from "../../data.js";
+// import { FaLaptopCode } from "@react-icons/all-files/fa/FaLaptopCode"
+// import img from '../../assets/projects/'
 
 export default function Projects() {
   return (
@@ -12,7 +12,7 @@ export default function Projects() {
           <DesktopComputerIcon className="mx-auto inline-block w-10 mb-4"/>
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             My Projects
-          </h1>
+          </h1> 
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
             facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
@@ -27,7 +27,7 @@ export default function Projects() {
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
                 <img
-                  alt="gallery"
+                  alt="Project"
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src={project.image}
                 />

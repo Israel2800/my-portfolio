@@ -1,5 +1,6 @@
 import React from 'react';
 import profilePhoto from '../../assets/profileImg/profileImg.jpg';
+// import Contact from './Contact';
 
 export default function About({ handlePageChange }) {
   return (
@@ -19,7 +20,7 @@ export default function About({ handlePageChange }) {
           Stack Web Developer at Vanderbilt University and I have a certificate as a Software 
           Developer that I acquired in Mexico at The Vocational Number 9, Juan de Dios Batiz. 
           </p>
-          <div className="flex justify-center">
+          {/* <div className="flex justify-center">
             <a
               href="#contact"
               className="inline-flex text-white bg-cyan-500 border-0 py-2 px-6 focus:outline-none hover:bg-cyan-700 rounded text-lg"
@@ -32,7 +33,7 @@ export default function About({ handlePageChange }) {
               onClick={() => handlePageChange('Projects')}>
               See My Projects
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
