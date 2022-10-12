@@ -21,7 +21,7 @@ export const projects = [
       subtitle: "MERN Stack",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./pwa.png",
+      image: 'pwa.png',
       link: "https://reactbootcamp.com",
     },
     {

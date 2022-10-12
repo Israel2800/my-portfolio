@@ -1,6 +1,6 @@
 import { DesktopComputerIcon } from "@heroicons/react/solid";
 import React from "react";
-import { projects } from "../../data.js";
+import { projects } from "../../data";
 // import { FaLaptopCode } from "@react-icons/all-files/fa/FaLaptopCode"
 // import img from '../../assets/projects/'
 
