@@ -14,9 +14,8 @@ export default function Projects() {
             My Projects
           </h1> 
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            Here you can see my most recent projects with the different technologies applied to each one. You can
+            go to the live webpages or the link of each repository in my GitHub account, have fun!
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -24,18 +23,19 @@ export default function Projects() {
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-100 p-4">
+              className="sm:w-1/2 w-100 p-4" target="blank">
               <div className="flex relative">
                 <img
                   alt="Project"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  className="absolute inset-0 w-full h-full object-center"
                   src={project.image}
+                  // style={{ width:"450px", height:"250px" }}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                    {project.subtitle}
+                <div className="px-8 py-10 relative z-auto w-full h-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-100 mb-1">
+                    {project.tools}
                   </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
+                  <h1 className="title-font text-lg font-medium text-white mb-3 underline underline-offset-8">
                     {project.title}
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>

@@ -12,58 +12,72 @@ import { SiBootstrap } from "@react-icons/all-files/si/SiBootstrap"
 import { SiTailwindcss } from "@react-icons/all-files/si/SiTailwindcss"
 import { SiJava } from "@react-icons/all-files/si/SiJava"
 import { GrMysql } from "@react-icons/all-files/gr/GrMysql"
-// import img from "./assets/projects/pwa.png"
-// import noteTaker from "../public/note-taker.png"
+
 
 export const projects = [
     {
-      title: "React Reserve!",
-      subtitle: "MERN Stack",
+      title: "TapCard",
+      tools: "Javascript, MongoDB, Express, React, Node, Apollo, GraphQL, Bcrypt, HTML and CSS",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: 'pwa.png',
-      link: "https://reactbootcamp.com",
+        "Web application that offers students and alumni the ability to connect with one another in a secure environment to share their interests and wealth of knowledge as they plan for future careers. It is a MERN stack single-page application that can works with real-world data to solve a real-world challenge.",
+      image: require('./assets/projects/TapCard.png'),
+      link: "https://tap-card-everyone.herokuapp.com/",
     },
     {
-      title: "React Tracks",
-      subtitle: "React and Python",
+      title: "Online Record Store",
+      tools: "JavaScript, Node, MySQL2, Sequelize, Inquirer, CSS, Express, Handlebars and Foundation",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./note-taker.png",
-      link: "https://reactbootcamp.com",
+        "Website where customers can sell their used records, or buy from others. Having the option to add the information of the records and an image link as a reference for the album. Users will be able to communicate by adding comments to all the posts!",
+      image: require('./assets/projects/record-swap.png'),
+      link: "https://gentle-stream-19606.herokuapp.com/",
     },
     {
-      title: "DevChat",
-      subtitle: "React and Firebase",
+      title: "Movie Moods",
+      tools: "JavaScript, HTML, CSS, Tailwind, TMDB and OMDB API's",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-3.gif",
-      link: "https://reactbootcamp.com",
+        "As a user you will have access to details about the movies of your interest, you will also have extra options if you don't know what to watch, the webpage will provide you a variety of genre options to choose from and depending on your choices random posters will be displayed.",
+      image: require('./assets/projects/movie-moods.png'),
+      link: "https://israel2800.github.io/Movie-Moods/",
     },
     {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
+      title: "Budget Tracker - PWA",
+      tools: "JavaScript, Node, MongoDB, Mongoose, Express, HTML and CSS",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-4.gif",
-      link: "https://reactbootcamp.com",
-    },
-  ];
-  
-  export const testimonials = [
-    {
-      quote:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-      image: "https://randomuser.me/api/portraits/men/1.jpg",
-      name: "Jesse Hicks",
-      company: "Zoozle",
+        "Web application that allows a user to keep track of their withdrawals and deposits with or without a data/internet connection, so that their account balance will be accurate.",
+      image: require('./assets/projects/pwa.png'),
+      link: "https://budget-tracker-pwa-12.herokuapp.com/",
     },
     {
-      quote:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-      image: "https://randomuser.me/api/portraits/men/94.jpg",
-      name: "Ruben Alvarez",
-      company: "Dooble.io",
+      title: "The Note Taker",
+      tools: "JavaScript, Express, Node, HTML and CSS",
+      description:
+        "Web application with the functionality as a note taker, in which you can write, save and delete all the notes you want, you will keep track of all the information you would like to save, you can also view all your notes at every time you want with your latest updates.",
+      image: require('./assets/projects/note-taker.png'),
+      link: "https://note-taker-task.herokuapp.com/",
+    },
+    {
+      title: "Weather Dashboard Web",
+      tools: "Javascript, HTML, CSS and API",
+      description:
+        "This website is designed for all the users who want to know the weather conditions to determine what activities they will be able to do outdoors, it also helps you to perfectly plan your weather related activities because the website will give you a five day weather forecast .",
+      image: require('./assets/projects/weather-dashboard.png'),
+      link: "https://israel2800.github.io/weather-dashboard-web/",
+    },
+    {
+      title: "Work Day Scheduler",
+      tools: "Javascript, HTML and CSS",
+      description:
+        "Website built for all users who need to manage their time during business hours, it is very easy and convenient to use because it will not only allow you to record all your activities, this application will also notify you when you are on time or not.",
+      image: require('./assets/projects/work-scheduler.png'),
+      link: "https://israel2800.github.io/work-day-scheduler/",
+    },
+    {
+      title: "Run Buddy",
+      tools: "HTML and CSS",
+      description:
+        "Cool website design for a gym, offering its various services, including its staff. It is mobile responsive with an attractive interface.",
+      image: require('./assets/projects/run-buddy.png'),
+      link: "https://israel2800.github.io/run-buddy/",
     },
   ];
   

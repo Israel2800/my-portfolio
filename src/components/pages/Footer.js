@@ -1,12 +1,13 @@
 import React from 'react';
+import { SiMongodb } from "@react-icons/all-files/si/SiMongodb"
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <div className="text-center1">
-        <div className='footerContainer'>
+    <footer className="footer bg-gray-800">
+      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-center">
+        <div className='title-font text-lg font-medium text-white mb-3 underline underline-offset-8 items-center justify-center'>
             <a className='iconDeclared' href="https://github.com/Israel2800" target="_blank" rel="noreferrer">  
-                <i className="fa fa-github centerIcon iconProp"></i>
+            <p><SiMongodb /></p>
             </a>
             <a className='iconDeclared' href="https://www.linkedin.com/in/israel-aguilar-292b97243/" target="_blank" rel="noreferrer">
                 <i class="fa fa-linkedin centerIcon iconProp"></i>
