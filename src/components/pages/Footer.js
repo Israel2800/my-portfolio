@@ -3,7 +3,7 @@ import { SiMongodb } from "@react-icons/all-files/si/SiMongodb"
 
 const Footer = () => {
   return (
-    <footer className="footer bg-gray-800">
+    <footer className="footer bg-gray-800 container px-5 py-2 mx-auto">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-center">
         <div className='title-font text-lg font-medium text-white mb-3 underline underline-offset-8 items-center justify-center'>
             <a className='iconDeclared' href="https://github.com/Israel2800" target="_blank" rel="noreferrer">  
