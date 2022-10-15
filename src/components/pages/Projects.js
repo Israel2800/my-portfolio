@@ -1,6 +1,9 @@
 import { DesktopComputerIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../../data";
+import { SiGithub } from "@react-icons/all-files/si/SiGithub"
+import { FaLaptopCode } from "@react-icons/all-files/fa/FaLaptopCode"
+
 // import { FaLaptopCode } from "@react-icons/all-files/fa/FaLaptopCode"
 // import img from '../../assets/projects/'
 
@@ -21,9 +24,8 @@ export default function Projects() {
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
             <a
-              href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-100 p-4" target="blank">
+              className="sm:w-1/2 w-100 p-4" target="blank" rel="noreferrer">
               <div className="flex relative">
                 <img
                   alt="Project"
@@ -39,6 +41,14 @@ export default function Projects() {
                     {project.title}
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
+                  <div id="icons" className="flex justify-center mt-3">
+                  <a className="w-12" href={project.gitHub} target="_blank" rel="noreferrer">
+                    <SiGithub className="w-7 h-full mx-auto fill-cyan-100 hover:fill-sky-300" />
+                  </a>
+                  <a className="w-12" href={project.link} target="_blank" rel="noreferrer">
+                    <FaLaptopCode className="w-8 h-full mx-auto fill-cyan-100 hover:fill-sky-300" />
+                  </a>
+                  </div>
                 </div>
               </div>
             </a>

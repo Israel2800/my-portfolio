@@ -3,13 +3,14 @@ import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills } from "../../data";
 import resumePDF from "../../assets/Israel_Aguilar_Resume.pdf"
+import { AiOutlineCode } from "@react-icons/all-files/ai/AiOutlineCode"
 
 export default function Skills() {
   return (
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-10">
-          <CodeIcon className="w-12 inline-block mb-4" />
+          <AiOutlineCode className="w-12 h-full inline-block mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Skills &amp; Technologies
           </h1>

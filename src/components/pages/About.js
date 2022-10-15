@@ -1,5 +1,6 @@
 import React from 'react';
 import profilePhoto from '../../assets/profileImg/profileImg.jpg';
+import myPortImg from '../../assets/profileImg/myPortImg.png';
 // import Contact from './Contact';
 
 export default function About({ handlePageChange }) {
