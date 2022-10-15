@@ -34,7 +34,7 @@ A website that provides all the projects that the employee has carried out in hi
 
 ## Technologies 
 ```
-Node.js, JavaScript, HTML, CSS, Express, React
+JavaScript, Node, Express, React, Tailwind, HTML, CSS 
 ```
 
 ## Installation
