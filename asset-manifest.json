@@ -1,32 +1,25 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.a89034c9.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.227a9663.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.227a9663.chunk.js.map",
-    "runtime-main.js": "/my-portfolio/static/js/runtime-main.273e874c.js",
-    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.273e874c.js.map",
-    "static/css/2.984f751f.chunk.css": "/my-portfolio/static/css/2.984f751f.chunk.css",
-    "static/js/2.07f52b29.chunk.js": "/my-portfolio/static/js/2.07f52b29.chunk.js",
-    "static/js/2.07f52b29.chunk.js.map": "/my-portfolio/static/js/2.07f52b29.chunk.js.map",
-    "static/js/3.b380243a.chunk.js": "/my-portfolio/static/js/3.b380243a.chunk.js",
-    "static/js/3.b380243a.chunk.js.map": "/my-portfolio/static/js/3.b380243a.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.58bfaab4.css",
+    "main.js": "/my-portfolio/static/js/main.e93293e4.js",
+    "static/js/787.276eadd9.chunk.js": "/my-portfolio/static/js/787.276eadd9.chunk.js",
+    "static/media/profileImg.jpg": "/my-portfolio/static/media/profileImg.8966b22d31dce321503e.jpg",
+    "static/media/run-buddy.png": "/my-portfolio/static/media/run-buddy.d736d30f6689bb211779.png",
+    "static/media/movie-moods.png": "/my-portfolio/static/media/movie-moods.0e36b240a04606f61aae.png",
+    "static/media/TapCard.png": "/my-portfolio/static/media/TapCard.e732bc5dff67d9ca81ad.png",
+    "static/media/work-scheduler.png": "/my-portfolio/static/media/work-scheduler.67e7dfe4811df52d9f12.png",
+    "static/media/pwa.png": "/my-portfolio/static/media/pwa.a8bd2301c1f244d092aa.png",
+    "static/media/weather-dashboard.png": "/my-portfolio/static/media/weather-dashboard.8e399d9a46b37049e12a.png",
+    "static/media/Israel_Aguilar_Resume.pdf": "/my-portfolio/static/media/Israel_Aguilar_Resume.91ff9fb42126cec83638.pdf",
+    "static/media/record-swap.png": "/my-portfolio/static/media/record-swap.c2d12a5ed47eca7504c4.png",
+    "static/media/note-taker.png": "/my-portfolio/static/media/note-taker.840667d40e923f09c075.png",
     "index.html": "/my-portfolio/index.html",
-    "static/css/2.984f751f.chunk.css.map": "/my-portfolio/static/css/2.984f751f.chunk.css.map",
-    "static/css/main.a89034c9.chunk.css.map": "/my-portfolio/static/css/main.a89034c9.chunk.css.map",
-    "static/js/2.07f52b29.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.07f52b29.chunk.js.LICENSE.txt",
-    "static/media/TapCard.e732bc5d.png": "/my-portfolio/static/media/TapCard.e732bc5d.png",
-    "static/media/movie-moods.0e36b240.png": "/my-portfolio/static/media/movie-moods.0e36b240.png",
-    "static/media/note-taker.840667d4.png": "/my-portfolio/static/media/note-taker.840667d4.png",
-    "static/media/profile.bcc03fc6.jpeg": "/my-portfolio/static/media/profile.bcc03fc6.jpeg",
-    "static/media/pwa.a8bd2301.png": "/my-portfolio/static/media/pwa.a8bd2301.png",
-    "static/media/record-swap.c2d12a5e.png": "/my-portfolio/static/media/record-swap.c2d12a5e.png",
-    "static/media/weather-dash.8e399d9a.png": "/my-portfolio/static/media/weather-dash.8e399d9a.png"
+    "main.58bfaab4.css.map": "/my-portfolio/static/css/main.58bfaab4.css.map",
+    "main.e93293e4.js.map": "/my-portfolio/static/js/main.e93293e4.js.map",
+    "787.276eadd9.chunk.js.map": "/my-portfolio/static/js/787.276eadd9.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.273e874c.js",
-    "static/css/2.984f751f.chunk.css",
-    "static/js/2.07f52b29.chunk.js",
-    "static/css/main.a89034c9.chunk.css",
-    "static/js/main.227a9663.chunk.js"
+    "static/css/main.58bfaab4.css",
+    "static/js/main.e93293e4.js"
   ]
 }
