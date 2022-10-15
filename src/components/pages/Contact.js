@@ -1,4 +1,6 @@
 import React from "react";
+import { ChatIcon } from "@heroicons/react/solid";
+
 
 export default function Contact() {
   const [name, setName] = React.useState("");
@@ -27,6 +29,7 @@ export default function Contact() {
   return (
     <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto flex justify-center sm:flex-nowrap flex-wrap">
+        
         {/* <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
             width="100%"
@@ -67,15 +70,20 @@ export default function Contact() {
           netlify
           name="test"
           onSubmit={handleSubmit}
-          className="flex justify-center flex-col  md:py-8 mt-8 md:mt-0">
+          className="flex justify-center flex-col">
+          <div className="text-center mb-4">
+            <ChatIcon className=" inline-block w-12 mb-4"/>
+           
+          </div>        
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Contact Me
           </h2>
-          <p className="leading-relaxed mb-5">
+          <p className="leading-relaxed mb-4">
             Let's work together and create the best experience on the web!
           </p>
+          
           <div className="relative mb-4">
-            <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="name" className="leading-7 text-sm text-white">
               Name
             </label>
             <input
@@ -87,7 +95,7 @@ export default function Contact() {
             />
           </div>
           <div className="relative mb-4">
-            <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="email" className="leading-7 text-sm text-white">
               Email
             </label>
             <input
@@ -101,7 +109,7 @@ export default function Contact() {
           <div className="relative mb-4">
             <label
               htmlFor="message"
-              className="leading-7 text-sm text-gray-400">
+              className="leading-7 text-sm text-white">
               Message
             </label>
             <textarea
@@ -113,9 +121,13 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            className=" text-white bg-gradient-to-l hover:bg-gradient-to-r border-0 py-2 px-6 rounded text-lg">
+            className=" text-white bg-gray-800 hover:bg-gradient-to-r border-0 py-2 px-6 rounded text-lg">
             Submit
           </button>
+          <div className="mt-2 text-white">
+            Or you can send me an email me at: 
+            <a href="mailto:dady281100@gmail.com" className="underline underline-offset-4 decoration-transparent hover:decoration-2 hover:decoration-sky-200"> dady281100@gmail.com</a>
+          </div>
         </form>
       </div>
     </section>

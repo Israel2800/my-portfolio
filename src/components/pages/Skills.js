@@ -9,7 +9,7 @@ export default function Skills() {
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-10">
-          <CodeIcon className="w-10 inline-block mb-4" />
+          <CodeIcon className="w-12 inline-block mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Skills &amp; Technologies
           </h1>
@@ -18,7 +18,7 @@ export default function Skills() {
           </p>
           <p className="text-3xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             
-            <a href = {resumePDF} className = " text-indigo-100 bg-gradient-to-l hover:bg-gradient-to-r border-0 py-2 px-6 rounded text-lg" download>Resume</a>
+            <a href = {resumePDF} className = " text-indigo-100 bg-gray-800 hover:bg-gradient-to-r border-0 py-2 px-6 rounded text-lg" download>Resume</a>
           </p>
 
         </div>

@@ -1,36 +1,28 @@
 import React from 'react';
 import { SiMongodb } from "@react-icons/all-files/si/SiMongodb"
+import { SiGithub } from "@react-icons/all-files/si/SiGithub"
+import { AiOutlineLinkedin } from "@react-icons/all-files/ai/AiOutlineLinkedin"
+import { FaStackOverflow } from "@react-icons/all-files/fa/FaStackOverflow"
 
 const Footer = () => {
   return (
-    <footer className="footer bg-gray-800 container px-5 py-2 mx-auto">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-center">
-        <div className='title-font text-lg font-medium text-white mb-3 underline underline-offset-8 items-center justify-center'>
-            <a className='iconDeclared' href="https://github.com/Israel2800" target="_blank" rel="noreferrer">  
-            <p><SiMongodb /></p>
+    <footer className="bg-gray-800 text-center">
+      <div className="px-6 pt-4 pb-4">
+        <div className="flex justify-center mb-2">
+            <a className="w-12" href="https://github.com/Israel2800" target="_blank" rel="noreferrer">  
+              <SiGithub className="w-7 h-full mx-auto fill-cyan-100 hover:fill-sky-300" />
             </a>
-            <a className='iconDeclared' href="https://www.linkedin.com/in/israel-aguilar-292b97243/" target="_blank" rel="noreferrer">
-                <i class="fa fa-linkedin centerIcon iconProp"></i>
+            <a className="w-12 text-white" href="https://www.linkedin.com/in/israel-aguilar-292b97243/" target="_blank" rel="noreferrer">  
+              <AiOutlineLinkedin className="w-9 h-full mx-auto fill-cyan-100 hover:fill-sky-300" />
             </a>
-            <a className='iconDeclared' href="https://stackoverflow.com/users/18821721/israel-aguilar" target="_blank" rel="noreferrer">
-                <i class="fa fa-stack-overflow centerIcon iconProp"></i>
+            <a className="w-12 text-white" href="https://stackoverflow.com/users/18821721/israel-aguilar" target="_blank" rel="noreferrer">  
+              <FaStackOverflow className="w-7 h-full mx-auto fill-cyan-100 hover:fill-sky-300" />
             </a>
             
         </div>
-            
-            <h4 className='footPhrase'>
-            Made with{' '}
-            <span
-                className="emoji"
-                role="img"
-                aria-label="brain"
-                aria-hidden="false"
-            >
-                🧠
-            </span>{' '}
-            by Israel Aguilar.
-            </h4>
-        
+        <div className="git"> 
+          © 2022 Israel Aguilar
+        </div>
       </div>
     </footer>
   );

@@ -9,9 +9,9 @@ export default function About({ handlePageChange }) {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm Israel!
-            <br className="lg:inline-block" />I am a web developer!
+            <br className="lg:inline-block" />I am a Web Developer!
           </h1>
-          <p className="mb-8 leading-relaxed">
+          <p className="mb-8 leading-relaxed text-justify">
           This is my passion!
           My experience with software development started when I was in middle school, 
           but I have always loved computing since I can remember, that is why I am 
@@ -20,6 +20,7 @@ export default function About({ handlePageChange }) {
           Stack Web Developer at Vanderbilt University and I have a certificate as a Software 
           Developer that I acquired in Mexico at The Vocational Number 9, Juan de Dios Batiz. 
           </p>
+
           {/* <div className="flex justify-center">
             <a
               href="#contact"
