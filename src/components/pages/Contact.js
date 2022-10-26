@@ -125,7 +125,7 @@ export default function Contact() {
             Submit
           </button>
           <div className="mt-2 text-white">
-            Or you can send me an email me at: 
+            Or you can send me an email at: 
             <a href="mailto:dady281100@gmail.com" className="underline underline-offset-4 decoration-transparent hover:decoration-2 hover:decoration-sky-200"> dady281100@gmail.com</a>
           </div>
         </form>
