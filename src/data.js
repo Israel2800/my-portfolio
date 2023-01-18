@@ -30,7 +30,7 @@ export const projects = [
       description:
         "Website where customers can sell their used records, or buy from others. Having the option to add the information of the records and an image link as a reference for the album. Users will be able to communicate by adding comments to all the posts!",
       image: require('./assets/projects/record-swap.png'),
-      link: "https://gentle-stream-19606.herokuapp.com/",
+      link: "https://online-record-store.herokuapp.com/",
       gitHub: "https://github.com/Israel2800/Online-Record-Store",
     },
     {
