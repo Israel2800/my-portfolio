@@ -21,7 +21,7 @@ const Footer = () => {
             
         </div>
         <div className="git"> 
-          © 2022 Israel Aguilar
+          © 2023 Israel Aguilar
         </div>
       </div>
     </footer>
